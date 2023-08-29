@@ -1,0 +1,184 @@
+/*  header */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* headline and subheadline */
+#header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#header h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* call to action button */
+#header a {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Style the hero image */
+#hero {
+    width: 100%;
+    height: 500px;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*benefits section */
+#benefits {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+#benefits h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#benefits ul {
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#benefits li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* icons in the benefits section */
+#benefits i {
+    color: #ff6600;
+    margin-right: 10px;
+}
+
+/*testimonials section */
+#testimonials {
+    padding: 40px;
+}
+
+#testimonials h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* info section */
+#info {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+#info h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* schedule, pricing, location,contact sub-sections */
+#schedule, #pricing, #location, #contact {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top; 
+}
+
+/* margin between the sub-sections */
+#schedule, #pricing {
+   margin-right: 2%; 
+}
+
+/*schedule sub-section */
+#schedule h4 {
+   font-size: 24px; 
+}
+
+#schedule table {
+   border-collapse: collapse; 
+   width: 100%;
+}
+
+#schedule th, #schedule td {
+   border-bottom: 1px solid #333; 
+   padding: 10px; 
+   text-align:left; 
+}
+
+/*pricing sub-section */
+#pricing h4 {
+   font-size: 24px; 
+}
+
+#pricing ul {
+   list-style-type:none; 
+   margin-left:-40px; 
+}
+
+#pricing li {
+   font-size :18px; 
+   margin-bottom :10px; 
+}
+
+/*contact sub-section */
+#contact h4 {
+   font-size :24px; 
+}
+
+#contact p, #contact ul, #contact li, #contact a{
+   font-size :18px; 
+   margin-bottom :10px; 
+}
+
+/*social media icons in the contact sub-section */
+#contact i{
+   color :rgb(240, 217, 217); 
+   background-color :#333; 
+   border-radius :50%; 
+   padding :0px; 
+   margin-right :5px; 
+}
+
+
+/*footer */
+#footer{
+   background-color :#333; 
+   color :white; 
+   padding :20px; 
+   text-align :center; 
+}

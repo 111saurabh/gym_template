@@ -1,0 +1,61 @@
+<html>
+<head>
+    <style>
+        #signup {
+            position: fixed; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            width: 20%; 
+            height: auto; 
+            background-color: white; 
+            border: 5px solid #ff6600; 
+            padding: 20px; 
+            box-shadow: 0 0 10px #333; 
+        }
+
+        /* signup form */
+        #signup form {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        /* form elements */
+        #signup form input, #signup form button {
+            width: 80%; 
+            margin: 10px; 
+            padding: 10px; 
+            border-radius: 10px; 
+        }
+
+        #signup form input {
+            border: 2px solid #ff6600; 
+        }
+
+        #signup form button {
+            background-color: #ff6600; 
+            color: white; 
+            border: none; 
+            font-weight: bold; 
+        }
+
+        /* hover effects */
+        #signup form button:hover {
+            background-color: white; 
+            color: #ff6600; 
+            border: 2px solid #ff6600; 
+        }
+    </style>
+</head>
+<body>
+    <div id="signup">
+        <h3>Sign Up for FitZone Gym</h3>
+        <form action="submit.html" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
